@@ -1,0 +1,21 @@
+how many enemys in first wave?
+(5 +1+level) 0 = 5, 1 = 7, 2 = 10
+
+DONE how do we spawn them?
+        StartCoroutine(coroutine);
+
+IEnumerator coroutine
+turn off next wave button
+for enemy amount Instantiate(prefabOfEnemy, atSpawnPoint);
+yield return new WaitForSeconds(xf);
+move to next number
+
+once all are spawned Increase the amount
+turn on next wave button
+
+
+DONE how long between spawns?
+x in how do we spawn them? is the time between spawns
+
+how long between waves?
+Press next button Run how do we spawn them? again
